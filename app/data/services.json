@@ -1,0 +1,571 @@
+{
+  "nameKey": "Service",
+  "criteria": [
+    {
+      "id": "deployment_model",
+      "label": "Deployment Model"
+    },
+    {
+      "id": "vendor",
+      "label": "Vendor"
+    },
+    {
+      "id": "description",
+      "label": "Description"
+    },
+    {
+      "id": "supported_by",
+      "label": "Supported By"
+    },
+    {
+      "id": "primary_data_type",
+      "label": "Primary Data Type"
+    },
+    {
+      "id": "access_pattern",
+      "label": "Access Pattern"
+    },
+    {
+      "id": "typical_data",
+      "label": "Typical Data"
+    },
+    {
+      "id": "characteristics",
+      "label": "Characteristics"
+    },
+    {
+      "id": "network_exposure",
+      "label": "Network Exposure"
+    },
+    {
+      "id": "data_classification",
+      "label": "Data Classification"
+    },
+    {
+      "id": "data_tier",
+      "label": "Data Tier"
+    },
+    {
+      "id": "compute_performance",
+      "label": "Compute Performance"
+    },
+    {
+      "id": "backup__disaster_recovery",
+      "label": "Backup & Disaster Recovery"
+    },
+    {
+      "id": "allocation__cost",
+      "label": "Allocation & Cost"
+    },
+    {
+      "id": "setup__request_instructions",
+      "label": "Setup / Request Instructions"
+    }
+  ],
+  "services": [
+    {
+      "Deployment Model": "CSS (Cloud Storage Solution)",
+      "Vendor": "Google",
+      "Service": "My Drive",
+      "Description": "Individually owned files, general use across Campus, collaboration to anyone with a gmail account",
+      "Supported By": "OIT (CCS)",
+      "Primary Data Type": "Personal work files",
+      "Access Pattern": "Individual",
+      "Typical Data": "• Personal work documents (Docs, Sheets, Slides)\r\n• Drafts and working files\r\n• Small datasets and spreadsheets\r\n• Personal notes and reference materials\r\n• Ad-hoc file uploads (PDFs, images)",
+      "Characteristics": "• Individual-owned cloud storage\r\n• Files are tied to a specific user account\r\n• Easy sharing, but ownership remains personal\r\n• Not ideal for long-term team or institutional records",
+      "Network Exposure": "Public",
+      "Data Classification": "Internal, Sensitive",
+      "Data Tier": "Standard, Nearline, Cold, Archive",
+      "Compute Performance": "N/A (only applies to Google Cloud Platform)",
+      "Backup & Disaster Recovery": "Recoverable for 30 days",
+      "Allocation & Cost": "Allocation: 100 GB, no increases permitted\nChargeback Applied: $150/TB/year for each TB allocated over 5 TB (minimum increment is 1 TB)",
+      "Setup / Request Instructions": "https://drive.google.com/\nHow to use Google Drive"
+    },
+    {
+      "Deployment Model": "CSS (Cloud Storage Solution)",
+      "Vendor": "Google",
+      "Service": "Workspace/Shared Drive",
+      "Description": "ND owned files, collaboration with others, \"shared files, shared drive\"",
+      "Supported By": "OIT (CCS)",
+      "Primary Data Type": "Collaboration & comms data",
+      "Access Pattern": "Mixed",
+      "Typical Data": "• Files across Drive and Shared Drives",
+      "Characteristics": "• Integrated collaboration ecosystem\r\n• Mix of structured and unstructured data\r\n• Contains institutional and sometimes FERPA-relevant data\r\n• Storage is distributed across multiple services",
+      "Network Exposure": "Public",
+      "Data Classification": "Internal, Sensitive",
+      "Data Tier": "Standard, Nearline, Cold, Archive",
+      "Compute Performance": "N/A (only applies to Google Cloud Platform)",
+      "Backup & Disaster Recovery": "Recoverable for 30 days",
+      "Allocation & Cost": "Allocation: 250 GB/drive, allocation increases permitted for University related business upon request\nChargeback Applied: $150/TB/year for each TB allocated over 5 TB (minimum increment is 1 TB)",
+      "Setup / Request Instructions": "Coming Soon (Phase 2 of DSS)"
+    },
+    {
+      "Deployment Model": "CSS (Cloud Storage Solution)",
+      "Vendor": "Google",
+      "Service": "Department Drive (Dept Use)",
+      "Description": "Designated Shared drive.Department data that is not HSI, but that they don't want shared",
+      "Supported By": "OIT (CCS)",
+      "Primary Data Type": "Team & department files",
+      "Access Pattern": "Group",
+      "Typical Data": "• Team and departmental documents\r\n• Shared reports and spreadsheets\r\n• Committee working files\r\n• Administrative documentation\r\n• Ongoing project files",
+      "Characteristics": "• Team-owned storage (not tied to an individual)\r\n• Consistent access as staff change\r\n• Better for continuity and governance\r\n• Common for departmental and functional units",
+      "Network Exposure": "Public",
+      "Data Classification": "Internal, Sensitive",
+      "Data Tier": "Standard, Nearline, Cold, Archive",
+      "Compute Performance": "N/A (only applies to Google Cloud Platform)",
+      "Backup & Disaster Recovery": "Recoverable for 30 days",
+      "Allocation & Cost": "Allocation: 250 GB/drive, allocation increases permitted for University related business upon request\nChargeback Applied: $150/TB/year for each TB allocated over 5 TB (minimum increment is 1 TB)",
+      "Setup / Request Instructions": "Request form"
+    },
+    {
+      "Deployment Model": "CSS (Cloud Storage Solution)",
+      "Vendor": "Google",
+      "Service": "HSI Shared Drive",
+      "Description": "Designated Shared drive. Secure storage for Restricted/Highly Sensitive Information (HSI), configured to restrict content sharing and manage access; an alternative to CorpFS",
+      "Supported By": "OIT (CCS)",
+      "Primary Data Type": "Team & department files",
+      "Access Pattern": "Group (Restriced)",
+      "Typical Data": "Restricted/Highly Sensitive Information (HSI)",
+      "Characteristics": "configured to restrict content sharing and manage access; an alternative to CorpFS",
+      "Network Exposure": "Public",
+      "Data Classification": "Restricted",
+      "Data Tier": "Standard, Nearline, Cold, Archive",
+      "Compute Performance": "N/A (only applies to Google Cloud Platform)",
+      "Backup & Disaster Recovery": "Recoverable for 30 days",
+      "Allocation & Cost": "Allocation: 250 GB/drive, allocation increases permitted for University related business upon request\nChargeback Applied: $150/TB/year for each TB allocated over 5 TB (minimum increment is 1 TB)",
+      "Setup / Request Instructions": "Request form"
+    },
+    {
+      "Deployment Model": "CSS (Cloud Storage Solution)",
+      "Vendor": "Microsoft",
+      "Service": "M365 OneDrive",
+      "Description": "Individually owned files. Default for MSOffice and MS365 applications.  Collaboration in and outside ND.",
+      "Supported By": "OIT (CCS)",
+      "Primary Data Type": "Personal work files",
+      "Access Pattern": "Individual",
+      "Typical Data": "• Personal work files\r\n• Draft documents and spreadsheets\r\n• Temporary file storage\r\n• Files shared from Teams or email\r\n• Sync’d desktop folders (Documents, Desktop)",
+      "Characteristics": "• Individual-owned cloud storage\r\n• Strong integration with Office apps\r\n• Easy sharing, but user-centric ownership\r\n• Not intended for departmental record storage",
+      "Network Exposure": "Public",
+      "Data Classification": "Internal",
+      "Data Tier": "Standard, Nearline, Cold, Archive",
+      "Compute Performance": "N/A (only applies to Azure)",
+      "Backup & Disaster Recovery": "Recoverable for 30 days",
+      "Allocation & Cost": "Allocation: 100 GB\nChargeback Applied: $150/TB/year for each TB allocated over 5 TB (minimum increment is 1 TB)",
+      "Setup / Request Instructions": "https://portal.office.com"
+    },
+    {
+      "Deployment Model": "CSS (Cloud Storage Solution)",
+      "Vendor": "Microsoft",
+      "Service": "M365 Teams / Sharepoint",
+      "Description": "ND owned files; Collaboration varies",
+      "Supported By": "OIT (CCS)",
+      "Primary Data Type": "Team collaboration files",
+      "Access Pattern": "Group",
+      "Typical Data": "• Team and channel documents\r\n• Shared Office files\r\n• Meeting recordings and chat files\r\n• Collaboration artifacts linked to projects or courses",
+      "Characteristics": "• Team-based collaboration platform\r\n• Files are stored in SharePoint behind the scenes\r\n• Supports persistent group access\r\n• Suitable for ongoing group and project work",
+      "Network Exposure": "Public",
+      "Data Classification": "Internal",
+      "Data Tier": "Standard, Nearline, Cold, Archive",
+      "Compute Performance": "N/A (only applies to Azure)",
+      "Backup & Disaster Recovery": "Recoverable for 30 days",
+      "Allocation & Cost": "Allocation: 250 GB/drive, allocation increases permitted for University related business upon request\nChargeback Applied: $150/TB/year for each TB allocated over 5 TB (minimum increment is 1 TB)",
+      "Setup / Request Instructions": "Coming Soon (Standardize Teams Project)"
+    },
+    {
+      "Deployment Model": "CSS (Cloud Storage Solution)",
+      "Vendor": "AWS",
+      "Service": "AWS Storage Service (S3)",
+      "Description": "Low Cost storage utilized by AWS and on-premise devices such as storage gateways, BlackPearl etc\nFile storage for departmental/admin files",
+      "Supported By": "OIT (CES)",
+      "Primary Data Type": "Active datasets, app data",
+      "Access Pattern": "Frequent",
+      "Typical Data": "• Application data and datasets\r\n• Research data files (CSV, JSON, images, videos, sensor data)\r\n• Data lakes and analytics inputs\r\n• Backups and exports from databases\r\n• Static website content",
+      "Characteristics": "• Low cost\n• Highly scalable and durable\n• Common “default” cloud storage for many systems",
+      "Network Exposure": "Public",
+      "Data Classification": "Public, Internal, Sensitive, Restricted",
+      "Data Tier": "Standard, Nearline",
+      "Compute Performance": "N/A",
+      "Backup & Disaster Recovery": "Backups, as configured",
+      "Allocation & Cost": "",
+      "Setup / Request Instructions": "via user's AWS account linked to OIT"
+    },
+    {
+      "Deployment Model": "CSS (Cloud Storage Solution)",
+      "Vendor": "AWS",
+      "Service": "AWS Storage Gateway File Gateway",
+      "Description": "File storage",
+      "Supported By": "OIT (CES)",
+      "Primary Data Type": "On-prem file data",
+      "Access Pattern": "Frequent",
+      "Typical Data": "• On-premise file shares synced to AWS\r\n• Departmental shared files\r\n• Legacy application files that require a file system interface\r\n• Backup copies of local NAS data",
+      "Characteristics": "• Appears as a local NFS/SMB file share\r\n• Data is stored in S3, but accessed like a traditional file server\r\n• Useful for hybrid (on-prem + cloud) environments",
+      "Network Exposure": "Campus, Restricted",
+      "Data Classification": "Public, Internal, Sensitive, Restricted",
+      "Data Tier": "Standard, Nearline, Cold, Archive",
+      "Compute Performance": "Low Latency",
+      "Backup & Disaster Recovery": "Backups, as configured",
+      "Allocation & Cost": "",
+      "Setup / Request Instructions": "SMB/NFS file share"
+    },
+    {
+      "Deployment Model": "CSS (Cloud Storage Solution)",
+      "Vendor": "AWS",
+      "Service": "AWS S3 Archive (Glacier / Glacier Deep Archive)",
+      "Description": "Low cost long term storage in AWS.  Utilized to store long term data that is kept for long periods of time",
+      "Supported By": "OIT (CES)",
+      "Primary Data Type": "Historical / compliance data",
+      "Access Pattern": "Rare",
+      "Typical Data": "• Long-term archival data\r\n• Infrequently accessed research datasets\r\n• Compliance and audit records\r\n• Historical logs and backups\r\n• Retained student or research records",
+      "Characteristics": "• Very low cost\r\n• Long retrieval times (minutes to hours)\r\n• Not intended for active use",
+      "Network Exposure": "Public",
+      "Data Classification": "Public, Internal, Sensitive, Restricted",
+      "Data Tier": "Cold, Archive",
+      "Compute Performance": "N/A",
+      "Backup & Disaster Recovery": "Backups, as configured",
+      "Allocation & Cost": "",
+      "Setup / Request Instructions": ""
+    },
+    {
+      "Deployment Model": "CSS (Cloud Storage Solution)",
+      "Vendor": "AWS",
+      "Service": "NetApp FSx ONTAP",
+      "Description": "Running our Databases for Enterprise ERP systems as well as OnBase, SFBPD and other NFS mountable solutions",
+      "Supported By": "OIT (CES)",
+      "Primary Data Type": "High-performance file data",
+      "Access Pattern": "Frequent",
+      "Typical Data": "• Active research datasets requiring high performance\n• HPC workloads\r\n• Databases and transactional data\r\n• VMware or enterprise application storage",
+      "Characteristics": "• High-performance file and block storage\r\n• Supports NFS, SMB, iSCSI\r\n• Snapshotting, replication, tiering to S3\r\n• Enterprise NAS functionality in AWS",
+      "Network Exposure": "Campus, Restricted",
+      "Data Classification": "Internal, Sensitive, Restricted",
+      "Data Tier": "High Performance, Standard",
+      "Compute Performance": "High Throughput, Low Latency",
+      "Backup & Disaster Recovery": "Daily (automatic); 30 day retention for snapshot",
+      "Allocation & Cost": "",
+      "Setup / Request Instructions": "Multiprotocol: NFS, SMB, iSCSI"
+    },
+    {
+      "Deployment Model": "CSS (Cloud Storage Solution)",
+      "Vendor": "AWS",
+      "Service": "C3PHI Research Environment",
+      "Description": "Secure research environment including storage for protected health information (PHI)",
+      "Supported By": "CRC",
+      "Primary Data Type": "Sensitive regulated research data",
+      "Access Pattern": "Controlled",
+      "Typical Data": "• Regulated and sensitive research data, including PHI (Protected Health Information) and/or Human subject research data\r\n• Restricted access research files\r\n• Analysis outputs tied to sensitive inputs",
+      "Characteristics": "• Secure, compliance-focused environment\r\n• Strong access controls and auditing\r\n• Designed to meet HIPAA / IRB requirements\r\n• Storage is secondary to data governance",
+      "Network Exposure": "Restricted",
+      "Data Classification": "Restricted",
+      "Data Tier": "High Performance, Standard, Nearline, Cold, Archive",
+      "Compute Performance": "Low Latency",
+      "Backup & Disaster Recovery": "With file changes (automatic); 6 year retention (or regulation/data-use agreement based)",
+      "Allocation & Cost": "N/A (TBD: working on future chargeback model)",
+      "Setup / Request Instructions": "crcsupport@nd.edu"
+    },
+    {
+      "Deployment Model": "CSS (Cloud Storage Solution)",
+      "Vendor": "AWS",
+      "Service": "CurateND",
+      "Description": "Preservation storage for CurateND, ND's university repository for scholarly material \nNOTE: The CRC does not provide archival storage but instead works with the ND Library through their CurateND service.",
+      "Supported By": "Hesburgh Libraries",
+      "Primary Data Type": "Published research outputs",
+      "Access Pattern": "Public / preserved",
+      "Typical Data": "• Final, published research datasets\r\n• Open or restricted scholarly data\r\n• Supporting data for journal publications\r\n• Documentation, metadata, and data dictionaries",
+      "Characteristics": "• Institutional data repository\r\n• Focus on data preservation, citation, and sharing\r\n• Assigns DOIs\r\n• Not intended for active computing or large-scale processing",
+      "Network Exposure": "Campus, Restricted",
+      "Data Classification": "Public, Internal, Sensitive",
+      "Data Tier": "Standard, Nearline",
+      "Compute Performance": "???",
+      "Backup & Disaster Recovery": "",
+      "Allocation & Cost": "",
+      "Setup / Request Instructions": "https://curate.nd.edu/"
+    },
+    {
+      "Deployment Model": "On-Premises",
+      "Vendor": "NetApp",
+      "Service": "NetApp (Dept/Research)",
+      "Description": "File storage for departmental/admin files",
+      "Supported By": "OIT",
+      "Primary Data Type": "Enterprise file & app data",
+      "Access Pattern": "Frequent",
+      "Typical Data": "• Departmental file shares\n• Research project data\n• Application and database files\n• Virtual machine storage",
+      "Characteristics": "• Enterprise NAS/SAN platform\r\n• Supports NFS, SMB, iSCSI\r\n• Snapshot, replication, and backup capabilities\r\n• Often used for centralized institutional storage",
+      "Network Exposure": "Campus, Restricted",
+      "Data Classification": "Internal, Sensitive, Restricted",
+      "Data Tier": "Standard",
+      "Compute Performance": "Low Latency",
+      "Backup & Disaster Recovery": "Check with Blake/Matt",
+      "Allocation & Cost": "",
+      "Setup / Request Instructions": ""
+    },
+    {
+      "Deployment Model": "On-Premises",
+      "Vendor": "NetApp",
+      "Service": "NetApp (Reseach Home Directories)",
+      "Description": "For general home directories for CRC researchers and group spaces",
+      "Supported By": "CRC",
+      "Primary Data Type": "Enterprise file & app data",
+      "Access Pattern": "Frequent",
+      "Typical Data": "• Departmental (Faculty, not student) file shares\n• Research project data\n• Home Directories",
+      "Characteristics": "",
+      "Network Exposure": "Campus, Restricted",
+      "Data Classification": "Internal, Sensitive",
+      "Data Tier": "Standard",
+      "Compute Performance": "Low Latency",
+      "Backup & Disaster Recovery": "CRC Restore for All: nightly snapshot (stored for last 3 days) weekly (stored for last 2 weeks)\n\nCheck with Blake/Matt for long term/chargeback storage",
+      "Allocation & Cost": "Allocation: 5 TB per PI\nChargeback Applied: \nTop-tier (Active research data): $115/TB/year \nInactive research data: $70/TB/year (with backup) or $35/TB/year (without backup)",
+      "Setup / Request Instructions": ""
+    },
+    {
+      "Deployment Model": "On-Premises",
+      "Vendor": "NetApp",
+      "Service": "NetApp Keystone",
+      "Description": "An IaaS appliance (Hybrid: On-Prem/Iaas). Runs Majority of Production VM's that are run on-premise.  Runs CorpFS CIFS for university.",
+      "Supported By": "OIT",
+      "Primary Data Type": "Subscription-based enterprise storage",
+      "Access Pattern": "Frequent",
+      "Typical Data": "• Same data types as NetApp (file, block, object)\r\n• Production research data\r\n• Enterprise application data\r\n• Departmental and shared storage",
+      "Characteristics": "• Storage-as-a-Service offering from NetApp\r\n• Subscription-based (OpEx)\r\n• On-prem or hybrid\r\n• Capacity scales on demand with service-level tiers",
+      "Network Exposure": "Campus, Restricted",
+      "Data Classification": "Public, Internal, Sensitive, Restricted",
+      "Data Tier": "Standard",
+      "Compute Performance": "Low Latency",
+      "Backup & Disaster Recovery": "Check with Blake/Matt",
+      "Allocation & Cost": "Chargeback Applied: $480/TB/Year (CorpFS used for Research)",
+      "Setup / Request Instructions": ""
+    },
+    {
+      "Deployment Model": "On-Premises",
+      "Vendor": "NetApp/ Citrix VDI",
+      "Service": "SECURE (Secure Enclave for Compliant University REsearch)",
+      "Description": "Secure storage for CUI (Controlled Unclassified Information) and CMMC compliance",
+      "Supported By": "CRC",
+      "Primary Data Type": "Regulated research data",
+      "Access Pattern": "Controlled",
+      "Typical Data": "• Regulated research data\r\n• PHI, PII, FERPA-protected data\r\n• Human subject research datasets\r\n• Restricted clinical and social science data\r\n• Compliance-bound analysis outputs",
+      "Characteristics": "• Highly controlled access\r\n• Designed for IRB, HIPAA, FERPA compliance\r\n• Emphasis on governance, auditing, and isolation\r\n• Storage supports secure analytics, not public access",
+      "Network Exposure": "Restricted",
+      "Data Classification": "Restricted",
+      "Data Tier": "High Performance, Standard",
+      "Compute Performance": "Low Latency",
+      "Backup & Disaster Recovery": "Internal only\nScott to confirm and notify of backup frequency and retention period",
+      "Allocation & Cost": "N/A (TBD: working on future chargeback model)",
+      "Setup / Request Instructions": "Scott to provide the Request form"
+    },
+    {
+      "Deployment Model": "On-Premises",
+      "Vendor": "Spectra Logic",
+      "Service": "Spectra T950 Tape Library",
+      "Description": "•  Archival storage\n•  Currently used by ND Studios, Fighting Irish Media, CRC.  Long Term low cost tape storage.\n•  BlackPearl/Archiware are required to access the Tape Library",
+      "Supported By": "CPS",
+      "Primary Data Type": "Long-term archive",
+      "Access Pattern": "Frequent (but slow response)",
+      "Typical Data": "• Long-term archival data\r\n• Institutional backups\r\n• Historical research datasets\r\n• Compliance and retention records",
+      "Characteristics": "• Physical tape-based storage\r\n• Very low cost per TB\r\n• Offline or near-offline access\r\n• Extremely long retention periods\r\n• Disaster recovery focused",
+      "Network Exposure": "Campus",
+      "Data Classification": "Public, Internal, Sensitive",
+      "Data Tier": "Cold, Archive",
+      "Compute Performance": "N/A",
+      "Backup & Disaster Recovery": "Can be backed up to AWS or other on request, but not configured for ND Studios (is for Fighting Irish Media)",
+      "Allocation & Cost": "Chargeback for T950 maintenance is included as component of CatDV chargeback and non-CatDV tape library usage",
+      "Setup / Request Instructions": "Spectra BlackPearl\nArchiWare"
+    },
+    {
+      "Deployment Model": "On-Premises",
+      "Vendor": "Quantum",
+      "Service": "ND Studios SAN",
+      "Description": "•  Online storage for media content\n•  CATDV and video editing",
+      "Supported By": "ND Studios",
+      "Primary Data Type": "Media production files",
+      "Access Pattern": "Intensive",
+      "Typical Data": "• Digital media production files\r\n• Video, audio, graphics, photography\r\n• Active editing and post-production assets\r\n• Project-based creative content",
+      "Characteristics": "• High-performance SAN\r\n• Optimized for media workflows\r\n• Supports large file sizes and concurrent access\r\n• Used by studios and creative teams",
+      "Network Exposure": "Campus",
+      "Data Classification": "Public, Internal, Sensitive",
+      "Data Tier": "High Performance (for media and entertainment), Standard",
+      "Compute Performance": "N/A",
+      "Backup & Disaster Recovery": "Can be backed up to AWS or other (e.g., T950) on request, but not configured",
+      "Allocation & Cost": "Chargeback is included as component of CatDV chargeback",
+      "Setup / Request Instructions": "Mounted via Fibre/SMB/DLC"
+    },
+    {
+      "Deployment Model": "On-Premises",
+      "Vendor": "Spectra Logic",
+      "Service": "RioBroker",
+      "Description": "Can move data from more expensive storage to tape, leaves a \"stub\" on the orginal storage media.",
+      "Supported By": "OIT",
+      "Primary Data Type": "Media workflow content",
+      "Access Pattern": "Frequent",
+      "Typical Data": "• Media assets (video, audio, images)\r\n• Production and post-production files\r\n• Media proxies and metadata\r\n• Workflow staging content",
+      "Characteristics": "• Media asset management and workflow orchestration\r\n• Often sits between storage tiers\r\n• Manages movement between fast storage and archive\r\n• Storage-adjacent, not just raw capacity",
+      "Network Exposure": "Campus",
+      "Data Classification": "Public, Internal, Sensitive, Restricted",
+      "Data Tier": "Standard, Cold, Archive",
+      "Compute Performance": "N/A",
+      "Backup & Disaster Recovery": "N/A",
+      "Allocation & Cost": "",
+      "Setup / Request Instructions": ""
+    },
+    {
+      "Deployment Model": "On-Premises",
+      "Vendor": "VAST Data",
+      "Service": "VAST",
+      "Description": "High performance storage (CRC Only)",
+      "Supported By": "CRC",
+      "Primary Data Type": "Large-scale research data",
+      "Access Pattern": "Intensive",
+      "Typical Data": "• Large-scale research datasets\n• AI/ML training data\n• HPC and data-intensive workloads\n• Genomics, imaging, and simulation data",
+      "Characteristics": "• High-performance scale-out file system\r\n• Supports NFS/SMB\r\n• Optimized for massive throughput and parallel access\r\n• Used where performance and scale matter most",
+      "Network Exposure": "Campus, Restricted",
+      "Data Classification": "Internal",
+      "Data Tier": "High Performance",
+      "Compute Performance": "High Throughput, Low Latency",
+      "Backup & Disaster Recovery": "N/A",
+      "Allocation & Cost": "Available on request",
+      "Setup / Request Instructions": "crcsupport@nd.edu"
+    },
+    {
+      "Deployment Model": "On-Premises",
+      "Vendor": "(Various)",
+      "Service": "Network Attached Storage (NAS) purchased by researcher",
+      "Description": "Storage able to be connected to laptops/desktops",
+      "Supported By": "Individual Department",
+      "Primary Data Type": "Departmental file storage",
+      "Access Pattern": "Frequent",
+      "Typical Data": "• General file storage\r\n• Small to medium research datasets",
+      "Characteristics": "• File-based storage (NFS/SMB)\r\n• Moderate performance and scalability",
+      "Network Exposure": "Campus, Restricted",
+      "Data Classification": "Internal, Sensitive, Restricted",
+      "Data Tier": "Standard",
+      "Compute Performance": "N/A",
+      "Backup & Disaster Recovery": "None or backed up to AWS Glacier, as configured",
+      "Allocation & Cost": "Cost: $15/TB to $50/TB",
+      "Setup / Request Instructions": "Reach out directly to ESC IT support (ticket in SNow)"
+    },
+    {
+      "Deployment Model": "On-Premises",
+      "Vendor": "Synology",
+      "Service": "ESC NFS storage",
+      "Description": "Shared storage for Linux systems serving the academic needs of Engineering",
+      "Supported By": "ESC IT",
+      "Primary Data Type": "Academic shared data",
+      "Access Pattern": "Frequent",
+      "Typical Data": "• Academic class data\n• ESC Departmental file storage",
+      "Characteristics": "• NFS-based (Academic) and SMB shared storage\n• Moderate to high performance",
+      "Network Exposure": "Campus",
+      "Data Classification": "Internal",
+      "Data Tier": "Standard",
+      "Compute Performance": "N/A",
+      "Backup & Disaster Recovery": "Academic backed up by Synology; non-academic backed up to AWS Glacier as configured",
+      "Allocation & Cost": "N/A",
+      "Setup / Request Instructions": "Reach out directly to ESC IT support (ticket in SNow)"
+    },
+    {
+      "Deployment Model": "On-Premises",
+      "Vendor": "Quantum",
+      "Service": "CatDV",
+      "Description": "Media asset tagging and management, utilizes BlackPearl, T950, AWS S3 and local SAN",
+      "Supported By": "ND Studios",
+      "Primary Data Type": "Media metadata & proxies",
+      "Access Pattern": "Frequent",
+      "Typical Data": "• Media metadata\r\n• Media asset references\r\n• Proxies and thumbnails\r\n• Editorial and workflow data",
+      "Characteristics": "• Media asset management (MAM) system\r\n• Integrates with underlying storage (SAN, NAS, archive)\r\n• Focus on search, cataloging, and lifecycle management\r\n• Not typically the primary storage location",
+      "Network Exposure": "Campus",
+      "Data Classification": "Public, Internal, Sensitive",
+      "Data Tier": "Standard",
+      "Compute Performance": "N/A",
+      "Backup & Disaster Recovery": "Backed up to AWS Glacier as configured\n\nSee AWS S3 Glacier and Deep Archive Pricing",
+      "Allocation & Cost": "$2,617/year + $5.02/TB/year for recurring storage\r\n$27.04/TB for each incremental TB added for the year (one-time)",
+      "Setup / Request Instructions": "https://ndcatdv.nd.edu/catdv/"
+    }
+  ],
+  "questions": [
+    {
+      "id": "what_is_the_classification_of_your_data",
+      "label": "What is the classification of your data?",
+      "options": [
+        "Public",
+        "Internal",
+        "Sensitive",
+        "Restricted"
+      ],
+      "column": "Data Classification"
+    },
+    {
+      "id": "what_types_of_data_will_be_stored",
+      "label": "What types of data will be stored",
+      "options": [
+        "General documents",
+        "Research",
+        "Video/large media files"
+      ],
+      "column": "Vendor"
+    },
+    {
+      "id": "what_is_the_current_volumesize_of_your_data",
+      "label": "What is the current volume/size of your data?",
+      "options": [
+        "Over 10 TB",
+        "Less than 10 TB"
+      ],
+      "column": "Description"
+    },
+    {
+      "id": "how_frequently_is_the_data_accessed",
+      "label": "How frequently is the data accessed?",
+      "options": [
+        "Daily",
+        "Weekly",
+        "Quarterly",
+        "Yearly",
+        "Rare to Never"
+      ],
+      "column": "Supported By"
+    },
+    {
+      "id": "will_the_data_be_share_outside_of_nd",
+      "label": "Will the data be share outside of ND?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "column": "Primary Data Type"
+    },
+    {
+      "id": "is_there_a_reason_your_data_cannot_be_stored_in_googlem365_eg_for_realtime_storage_of_instrumentation_data",
+      "label": "Is there a reason your data cannot be stored in Google/M365 (e.g., for real-time storage of instrumentation data)?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "column": "Access Pattern"
+    },
+    {
+      "id": "what_is_the_access_method_for_your_data",
+      "label": "What is the access method for your data?",
+      "options": [
+        "Active Directory",
+        "Google Groups",
+        "Okta"
+      ],
+      "column": "Typical Data"
+    },
+    {
+      "id": "will_your_data_interact_with_sensitivebusinesscritical_data_systems_eg_banner_sfbpd_onbase",
+      "label": "Will your data interact with sensitive/business-critical data systems (e.g., Banner, SFBPD, OnBase)?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "column": "Characteristics"
+    },
+    {
+      "id": "do_you_need_backups_snapshots_or_replication_of_your_data",
+      "label": "Do you need backups, snapshots or replication of your data?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "column": "Network Exposure"
+    }
+  ]
+}

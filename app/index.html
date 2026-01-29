@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Data Storage Finder | Notre Dame</title>
+  <link rel="stylesheet" href="app.css" />
+  <script src="https://cdn.sheetjs.com/xlsx-0.20.0/package/dist/xlsx.full.min.js"></script>
+</head>
+<body>
+  <header class="header">
+    <h1>Data Storage Finder</h1>
+    <p class="tagline">Find and compare data storage options that match your needs.</p>
+  </header>
+
+  <main class="main">
+    <section id="data-section" class="card section-describe">
+      <h2>Describe your data</h2>
+      <p class="section-desc">Answer these questions to help identify data storage services that are suitable for your needs. Your answers will highlight matching services and grey out others. If you are uncertain how to answer, leave the question blank to see all options.</p>
+      <div class="actions">
+        <button type="button" class="btn btn-clear" id="clear-filters">Clear answers</button>
+      </div>
+      <div id="criteria-filters" class="criteria-filters"></div>
+    </section>
+
+    <section id="services-section" class="card section-services">
+      <div class="card-header-row">
+        <div>
+          <h2><span class="arrow" aria-hidden="true">→</span> Select data storage services you would like to compare.</h2>
+          <p class="section-desc">Click anywhere on a card to add or remove it from your comparison.</p>
+        </div>
+        <div class="actions">
+          <button type="button" class="btn btn-secondary" id="select-all">Select all</button>
+          <button type="button" class="btn btn-outline-gold" id="clear-selection">Clear selections</button>
+        </div>
+      </div>
+      <div id="services-list" class="services-list"></div>
+      <p class="match-count"><span id="match-count">0 of 0</span> service(s) match your criteria.</p>
+    </section>
+
+    <section id="compare-section" class="card section-compare">
+      <h2>Compare results</h2>
+      <p class="section-desc">Compare the services you selected.</p>
+      <div id="compare-table-wrap" class="compare-table-wrap hidden">
+        <div class="table-scroll">
+          <table id="compare-table" class="compare-table"></table>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="loading" class="loading">Loading data…</div>
+  <div id="error" class="error hidden"></div>
+
+  <footer class="footer">
+    <p>Content is derived from the Data Storage Matrix. We welcome feedback.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "name": "dss-storage-finder",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build-data": "node scripts/xlsx-to-json.js",
+    "serve": "npx serve app -l 3000"
+  },
+  "devDependencies": {
+    "xlsx": "^0.18.5"
+  }
+}

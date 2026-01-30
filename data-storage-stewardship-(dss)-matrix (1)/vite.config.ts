@@ -4,7 +4,11 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
+    // For GitHub Pages project sites: use repo name, e.g. base: '/your-repo-name/'
+    // Use './' for relative paths (works for any subpath or user site)
+    const base = process.env.VITE_BASE_PATH ?? './';
     return {
+      base,
       server: {
         port: 3000,
         host: '0.0.0.0',
